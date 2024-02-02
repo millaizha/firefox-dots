@@ -273,7 +273,7 @@
 /* urlbar setup */
 #nav-bar{
   position: fixed !important;
-  top: calc(100% - var(--page-pad) - var(--pnels-prtr));
+  top: -23px;
   transition: var(--trans-var) !important;
   display: flex;
   width: 60%;
@@ -320,8 +320,8 @@
   #identity-box > *[open]
 ) {
   #nav-bar{
-    top: calc(100% - var(--page-pad) - 50px);
-    height: 100%;
+    top: 0%;
+    height: 4%;
     &  > *{
     opacity: 1;
     }
@@ -332,8 +332,8 @@
 #main-window:has(#urlbar[open])
 {
   #nav-bar{
-    top: calc(100% - 520px) !important;
-    height: 100%;
+    top: 0% !important;
+    height: 4%;
     &  > *{
     opacity: 1;
     }
